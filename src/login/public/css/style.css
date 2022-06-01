@@ -1,0 +1,23 @@
+:root{
+    --gray-color :#717271;
+    --light-gray-color: #dee0e5;
+    --midium-gray-color: #999fa6;
+    --button-gray-color: #f0f1f0;
+    --footer-back-color: #f1f2f1;
+    --footer-border-color: #e3e4e3;
+
+    --button-text-gray-color: #5F6368;
+    --font-family: 'Apple SD Gothic Neo',arial,sans-serif;
+}  
+*{
+    padding: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: var(--font-family);
+}
+
+button{
+    font-size: calc(10px + 2vmin);
+    margin: 50px;
+    width: 250px;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./public/css/style.css">
+    </header>
+    <body>
+        <div class="container">
+            <button onclick="login()">Login</button>
+        </div>
+    </body>
+    <script>
+        function login(){
+            location.href={{.BASE_URL}}+'/login/oauth/authorize?client_id='+{{.CLIENT_ID}}+'&redirect_uri'+{{.CODE_REDIRECT_URI}}+'&scope=user:email'
+        }
+    </script>
+</html>
